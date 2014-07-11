@@ -1,0 +1,18 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"Logo";"Lum_Logo";1;"VAL**";;;
+2;"C1";"c_0805";1;"10n";;;
+3;"C2,C4";"c_0805";2;"100n";;;
+4;"C3";"c_0805";1;"4u7";;;
+5;"PB3";"Pad01";1;"ADC3";;;
+6;"Q1";"SOT23-3";1;"ZXMN10A07F";;;
+7;"R1";"r_0805_2";1;"4k7";;;
+8;"R3";"r_0805_2";1;"2k2";;;
+9;"U1";"SO8E";1;"ATTINY45-20SU";;;
+10;"U2";"SOT23-3";1;"MCP1754ST";;;
+11;"P2";"pin_strip_3";1;"LED";;;
+12;"P3";"pin_strip_6b";1;"ISP";;;
+13;"D3";"SOD123";1;"MBR0530T3G";;;
+14;"P1";"Header_12V";1;"12V";;;
+15;"D1";"SOD323F";1;"Z4V7";;;
+16;"P4";"pulse:pin_strip_3";1;"POT";;;
+17;"P5";"pulse:pin_strip_3";1;"PWM";;;

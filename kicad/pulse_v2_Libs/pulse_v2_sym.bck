@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MOSFET_N_2
+D FDG1024NZ, 20V Vds, 1.2A Id, 175mOhm Rds, Dual N-Channel MOSFET, SC70-6
+K Dual N-Channel MOSFET Logic Level
+F http://www.fairchildsemi.com/ds/FD/FDG1024NZ.pdf
+$ENDCMP
+#
+$CMP MOSFET_N_3
+F transistors/mos/*.*
+$ENDCMP
+#
+#End Doc Library

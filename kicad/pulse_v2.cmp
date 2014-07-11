@@ -1,0 +1,108 @@
+Cmp-Mod V01 Created by Cvpcb (2014-05-21 BZR 4875)-product   date = Thursday 03 July 2014 01:09:36 PM IST
+
+BeginCmp
+TimeStamp = /53B2B499;
+Reference = C1;
+ValeurCmp = 10n;
+IdModule  = pulse:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53B2B6AB;
+Reference = C2;
+ValeurCmp = 100n;
+IdModule  = pulse:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53B2CC7F;
+Reference = C3;
+ValeurCmp = 4u7;
+IdModule  = pulse:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53B2CB7F;
+Reference = C4;
+ValeurCmp = 100n;
+IdModule  = pulse:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53B2AFF2;
+Reference = D1;
+ValeurCmp = Z4V7;
+IdModule  = pulse:SOD323F;
+EndCmp
+
+BeginCmp
+TimeStamp = /53B3DB2B;
+Reference = D3;
+ValeurCmp = MBR0530T3G;
+IdModule  = pulse:SOD123;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FE198D2;
+Reference = P1;
+ValeurCmp = LED;
+IdModule  = pulse:Header_12V;
+EndCmp
+
+BeginCmp
+TimeStamp = /53B29570;
+Reference = P2;
+ValeurCmp = 12V;
+IdModule  = pulse:pin_strip_3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FC76A52;
+Reference = P3;
+ValeurCmp = ISP;
+IdModule  = pulse:pin_strip_6b;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FE302FC;
+Reference = PB3;
+ValeurCmp = ADC3;
+IdModule  = pulse:Pad01;
+EndCmp
+
+BeginCmp
+TimeStamp = /53B2BFBA;
+Reference = Q1;
+ValeurCmp = ZXMN10A07F;
+IdModule  = pulse:SOT23-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /53B2C486;
+Reference = R1;
+ValeurCmp = 4k7;
+IdModule  = pulse:r_0805_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /53B2C304;
+Reference = R3;
+ValeurCmp = 2k2;
+IdModule  = pulse:r_0805_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FE06AE0;
+Reference = U1;
+ValeurCmp = ATTINY45-20SU;
+IdModule  = pulse:SO8E;
+EndCmp
+
+BeginCmp
+TimeStamp = /53B29B24;
+Reference = U2;
+ValeurCmp = MCP1754ST;
+IdModule  = pulse:SOT23-3;
+EndCmp
+
+EndListe
