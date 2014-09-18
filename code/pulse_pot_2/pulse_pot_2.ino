@@ -19,6 +19,9 @@
  
  */
 
+#include <PWM.h>
+int32_t frequency = 500; //frequency in Hz
+
 // These constants won't change.  They're used to give names
 // to the pins used:
 const int analogInPin = A2; // Analog input pin that the potentiometer is attached to
@@ -30,6 +33,11 @@ int outputValue = 0;        // value output to the PWM (analog out)
 void setup() {
  // initialize serial communications at 9600 bps:
  // Serial.begin(9600); 
+ InitTimerSafe();
+ bool success = SetPinFrequencySafe(analogOutPin, frequency);
+ if (success) {
+   pinMode(2, OUTPUT);
+   digitalWrite(2, HIGH);
 }
 
 void loop() {
@@ -38,7 +46,7 @@ void loop() {
   // map it to the range of the analog out:
   outputValue = map(sensorValue, 0, 1023, 0, 255);  
   // change the analog out value:
-  analogWrite(analogOutPin, outputValue);           
+  pwmWrite(analogOutPin, outputValue);           
 
   // print the results to the serial monitor:
 //  Serial.print("sensor = " );                       

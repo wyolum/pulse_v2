@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-05-21 BZR 4875)-product   date = Thursday 03 July 2014 01:09:36 PM IST
+Cmp-Mod V01 Created by Cvpcb (2014-05-21 BZR 4875)-product   date = Thursday 18 September 2014 04:35:11 PM IST
 
 BeginCmp
 TimeStamp = /53B2B499;
@@ -24,7 +24,7 @@ EndCmp
 BeginCmp
 TimeStamp = /53B2CB7F;
 Reference = C4;
-ValeurCmp = 100n;
+ValeurCmp = 1u X7R;
 IdModule  = pulse:c_0805;
 EndCmp
 
@@ -38,21 +38,21 @@ EndCmp
 BeginCmp
 TimeStamp = /53B3DB2B;
 Reference = D3;
-ValeurCmp = MBR0530T3G;
+ValeurCmp = 1N5819RL;
 IdModule  = pulse:SOD123;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FE198D2;
 Reference = P1;
-ValeurCmp = LED;
+ValeurCmp = 12V;
 IdModule  = pulse:Header_12V;
 EndCmp
 
 BeginCmp
 TimeStamp = /53B29570;
 Reference = P2;
-ValeurCmp = 12V;
+ValeurCmp = LED;
 IdModule  = pulse:pin_strip_3;
 EndCmp
 
@@ -61,6 +61,20 @@ TimeStamp = /4FC76A52;
 Reference = P3;
 ValeurCmp = ISP;
 IdModule  = pulse:pin_strip_6b;
+EndCmp
+
+BeginCmp
+TimeStamp = /53B6969C;
+Reference = P4;
+ValeurCmp = POT;
+IdModule  = pulse:pin_strip_3;
+EndCmp
+
+BeginCmp
+TimeStamp = /53B69D1D;
+Reference = P5;
+ValeurCmp = PWM;
+IdModule  = pulse:pin_strip_3;
 EndCmp
 
 BeginCmp
@@ -73,7 +87,7 @@ EndCmp
 BeginCmp
 TimeStamp = /53B2BFBA;
 Reference = Q1;
-ValeurCmp = ZXMN10A07F;
+ValeurCmp = BS170;
 IdModule  = pulse:SOT23-3;
 EndCmp
 
@@ -101,7 +115,7 @@ EndCmp
 BeginCmp
 TimeStamp = /53B29B24;
 Reference = U2;
-ValeurCmp = MCP1754ST;
+ValeurCmp = LP2950-5V0;
 IdModule  = pulse:SOT23-3;
 EndCmp
 

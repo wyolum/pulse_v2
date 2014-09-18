@@ -1,0 +1,18 @@
+Reference, Value, Footprint, Datasheet
+PB3,ADC3,pulse:Pad01,
+P1,12V,pulse:Header_12V,
+U1,ATTINY45-20SU,pulse:SO8E,
+P3,ISP,pulse:pin_strip_6b,
+P2,LED,pulse:pin_strip_3,
+U2,LP2950-5V0,pulse:SOT23-3,
+D1,Z4V7,pulse:SOD323F,BZX79-C4V7
+C1,10n,pulse:c_0805,
+C2,100n,pulse:c_0805,
+Q1,BS170,pulse:SOT23-3,
+R3,2k2,pulse:r_0805_2,
+R1,4k7,pulse:r_0805_2,
+C4,1u X7R,pulse:c_0805,
+C3,4u7,pulse:c_0805,
+D3,1N5819RL,pulse:SOD123,
+P4,POT,pulse:pin_strip_3,
+P5,PWM,pulse:pin_strip_3,

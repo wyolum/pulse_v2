@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source /home/anool/Desktop/pulse_v2/pulse_v2.sch)
-    (date "Friday 04 July 2014 05:30:27 PM IST")
+    (source /home/anool/projects-git/pulse_v2/kicad/pulse_v2.sch)
+    (date "Thursday 18 September 2014 04:43:20 PM IST")
     (tool "Eeschema (2014-05-21 BZR 4875)-product"))
   (components
     (comp (ref PB3)
@@ -135,17 +135,6 @@
         (pin (num 6) (name "PB1(MISO)") (type BiDi))
         (pin (num 7) (name "PB2(SCK/SCL)") (type BiDi))
         (pin (num 8) (name VCC) (type power_in))))
-    (libpart (lib pulse_v2_sym) (part 7805)
-      (aliases
-        (alias LM7805)
-        (alias 78L05))
-      (fields
-        (field (name Reference) U)
-        (field (name Value) 7805))
-      (pins
-        (pin (num 1) (name GND) (type input))
-        (pin (num 2) (name VI) (type input))
-        (pin (num 3) (name VO) (type power_out))))
     (libpart (lib pulse_v2_sym) (part C_NPOL)
       (footprints
         (fp SM*)
@@ -189,6 +178,17 @@
         (pin (num 4) (name 4) (type passive))
         (pin (num 5) (name 5) (type passive))
         (pin (num 6) (name 6) (type passive))))
+    (libpart (lib pulse_v2_sym) (part 7805)
+      (aliases
+        (alias LM7805)
+        (alias 78L05))
+      (fields
+        (field (name Reference) U)
+        (field (name Value) 7805))
+      (pins
+        (pin (num 1) (name GND) (type input))
+        (pin (num 2) (name VI) (type input))
+        (pin (num 3) (name VO) (type power_out))))
     (libpart (lib pulse_v2_sym) (part MOSFET_N_3)
       (docs transistors/mos/*.*)
       (fields
